@@ -41,4 +41,21 @@ sample input =
 sentence = "This is a test sentence. This sentence is a test."
 result = word_frequency(sentence)
 print(result)
-Rubric
+
+
+is_balanced.py
+The is_balanced function checks if a given expression has balanced parentheses, curly brackets, and square brackets.
+
+sentence.py
+The remove_duplicates function takes a sequence as input and returns a new sequence with duplicate elements removed.
+# test case 
+input_sequence = [2, 3, 2, 4, 5, 3, 6, 7, 5]
+result = remove_duplicates(input_sequence)
+print(result)  # Output: [2, 3, 4, 5, 6, 7]
+
+word_frequency
+The word_frequency function takes a sentence as input and returns a dictionary that contains the frequency of each word in the sentence.
+# test case
+sentence = "This is a test sentence. This sentence is a test."
+result = word_frequency(sentence)
+print(result)
